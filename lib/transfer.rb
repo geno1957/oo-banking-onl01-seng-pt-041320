@@ -30,7 +30,7 @@ class Transfer
       @receiver.balance += @amount 
       @status = "complete"
       elsif
-      @sender.balance < @amount && 
+      @sender.balance < @amount && @status
     
   
   
